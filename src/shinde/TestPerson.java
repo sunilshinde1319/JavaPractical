@@ -1,11 +1,11 @@
 package shinde;
 
-class Person {
+class Person1{
     protected String name;
     protected int age;
     protected char gender; // 'M' for male, 'F' for female, 'O' for other
 
-    public Person(String name, int age, char gender) {
+    public Person1(String name, int age, char gender) {
         this.name = name;
         this.age = age;
         this.gender = gender;
@@ -47,7 +47,7 @@ class Person {
 // For testing purposes
 public class TestPerson {
     public static void main(String[] args) {
-        Person person = new Person("Alice", 20, 'F');
+        Person1 person = new Person1("Sunil", 23, 'M');
         person.displayDetails();
 
         // Using the setters to change details
